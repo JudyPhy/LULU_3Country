@@ -1,0 +1,3 @@
+ID,SkillName,,,,,,,,,,,,,
+技能id,技能名称,技能描述,技能Icon,技能Atlas,资源AssetBundle,技能Bundle,技能解锁品质,技能类型,目标类型,目标上限,射程,伤害值,伤害百分比,持续回合
+int,string,string,int,int,int,string,string,int,string,int,int,int,float,

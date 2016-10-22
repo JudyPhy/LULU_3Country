@@ -1,0 +1,12 @@
+窗口ID,窗口名字,打开方式（1：一级界面；2：堆叠式弹窗；3：隐藏上级式弹窗）,通用BG
+int32,string,int32,string
+ID,WindowName,OpenType,BG_Name
+1,GameStartPanel,1,
+2,LoginPanel,1,
+3,LoadingUI,1,
+4,CreateRoleUI,1,
+5,BattleUI,1,
+6,MainUI,1,
+7,StageUI,2,
+8,SelecteRole,1,
+9,OfflineBattle,1,

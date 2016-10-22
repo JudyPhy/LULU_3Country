@@ -1,0 +1,4 @@
+ID,关卡名称,敌方位置1,敌方位置2,敌方位置3,敌方位置4,敌方位置5,敌方位置6,敌方位置7,敌方位置8,敌方位置9
+int32,string,int32,int32,int32,int32,int32,int32,int32,int32,int32
+ID,Name,Pos1,Pos2,Pos3,Pos4,Pos5,Pos6,Pos7,Pos8,Pos9
+1,第一关,,,1,,,,,2,

@@ -1,0 +1,5 @@
+﻿TypeID,名字,模型,星级,品阶,英雄攻击类型,攻击范围,五行类型,生命值上限,攻击,防御,速度,暴击值,初始暴击伤害倍数,暴击抗性（百分比数值）,命中,躲避,普通攻击技能ID,怒气技能ID,天赋技能ID,天赋技能ID,天赋技能ID,天赋技能ID,描述
+int32,string,int32,int32,int32,int32,int32,int32,int32,int32,int32,int32,int32,int32,int32,int32,int32,int32,int32,int32,int32,int32,int32,string
+ID,Name,ModelID,StarLevel,Quality,AtkType,AtkRange,WuXingType,HP,Atk,Def,Speed,Critical,CriMultiple,DeadlyStrikeReduce,Hit,Dodge,CommonSkillID,SkillID,TalentSkillID1,TalentSkillID2,TalentSkillID3,TalentSkillID4,Desc
+1,太虚,101,0,0,2,2,1,50,20,32,0,100,150,0,0,0,1001,2001,3001,3002,3003,3004,xxxxx
+2,楚天英,102,0,0,1,1,1,80,10,50,0,100,100,0,0,0,1001,2001,3001,3002,3003,3004,xxxxx
