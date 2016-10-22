@@ -1,0 +1,14 @@
+krn80.xml|342|<component size="1136,640" margin="3,0,0,0">
+  <displayList>
+    <graph id="n6" name="touchArea" xy="0,0" size="600,640" type="rect" lineColor="#00000000" fillColor="#00ffffff"/>
+    <image id="n3" name="joystick_bg" src="117ty4" xy="80,450"/>
+    <image id="n4" name="joystick_thumb" src="117ty3" xy="122,491"/>
+  </displayList>
+</component>package.xml|338|<packageDescription id="ek4ack04" name="Joystick_test">
+  <resources>
+    <atlas id="atlas0" size="256,128" file="atlas0.png"/>
+    <component id="krn80" name="com1" exported="true" size="1136,640"/>
+    <image id="117ty3" name="center" size="35,34"/>
+    <image id="117ty4" name="bg" size="120,120"/>
+  </resources>
+</packageDescription>

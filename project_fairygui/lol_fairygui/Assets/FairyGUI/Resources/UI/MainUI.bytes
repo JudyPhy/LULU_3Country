@@ -1,0 +1,51 @@
+117ty0.xml|135|<component size="1136,640">
+  <displayList>
+    <component id="n2" name="btn" src="117ty6" xy="336,320"/>
+  </displayList>
+</component>117ty2.xml|205|<component size="1136,640">
+  <displayList>
+    <component id="n1" name="pb" src="hzxmy9" xy="201,323" rotation="1">
+      <ProgressBar value="50" max="101"/>
+    </component>
+  </displayList>
+</component>117ty6.xml|846|<component size="142,79" extention="Button">
+  <Button/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <displayList>
+    <image id="n1" src="117ty5" name="n1" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <image id="n2" src="117ty5" name="n2" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <image id="n3" src="117ty5" name="n3" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <image id="n4" src="117ty5" name="n4" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+  </displayList>
+</component>hzxmy9.xml|324|<component size="200,42" extention="ProgressBar">
+  <displayList>
+    <image id="n1" name="n1" src="hzxmy7" xy="0,0" size="200,42">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="bar" src="hzxmy8" xy="0,0" size="200,41"/>
+  </displayList>
+  <ProgressBar/>
+</component>package.xml|658|<packageDescription id="jin02m60" name="MainUI">
+  <resources>
+    <atlas id="atlas0" size="256,128" file="atlas0.png"/>
+    <component id="117ty0" name="com1" exported="true" size="1136,640"/>
+    <component id="117ty2" name="com2" exported="true" size="1136,640"/>
+    <component id="117ty6" name="Button" size="142,79"/>
+    <component id="hzxmy9" name="pb" size="200,42"/>
+    <image id="117ty5" name="Btn_02" size="142,79"/>
+    <image id="hzxmy7" name="button_red.9" size="28,42" scale="9grid" scale9grid="12,17,4,8"/>
+    <image id="hzxmy8" name="button_green.9" size="29,41" scale="9grid" scale9grid="12,17,5,7"/>
+  </resources>
+</packageDescription>
